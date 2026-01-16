@@ -5,6 +5,7 @@ How to use the script:
 
 <details>
 	<summary>Show the script</summary>
+	
 	delete window.$;
     let wpRequire = webpackChunkdiscord_app.push([[Symbol()], {}, r => r]);
     webpackChunkdiscord_app.pop();
@@ -170,7 +171,8 @@ How to use the script:
 		}
 	}
 	doJob()
-}
+    }
+	
 </details>
 
 If you're unable to paste it type allow paste and it should work.
