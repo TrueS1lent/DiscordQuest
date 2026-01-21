@@ -175,7 +175,7 @@ How to use the script:
 	
 </details>
 
-If you're unable to paste it type allow paste and it should work.
+If you're unable to paste it type allow pasting and it should work.
 
 After this you wait on the screen and do nothing the quest will end in 15 minutes.
 
