@@ -183,7 +183,7 @@ How to use the script:
 		}
 	}
 	doJob()
-}
+    }
 	
 </details>
 
