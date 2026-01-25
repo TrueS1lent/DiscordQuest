@@ -1,7 +1,8 @@
 How to use the script:
 1. Accept the Discord Quest.
 2. Press `ctrl` + `shift` and `i` to open DevTools.
-3. Paste the following code and hit enter.
+3. Go to `Console` tab.
+4. Paste the following code and hit enter.
 
 <details>
 	<summary>Show the script</summary>
