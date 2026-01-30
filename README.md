@@ -6,7 +6,7 @@ How to use the script:
 
 <details>
 	<summary>Show the script</summary>
-	
+
 	delete window.$;
     let wpRequire = webpackChunkdiscord_app.push([[Symbol()], {}, r => r]);
     webpackChunkdiscord_app.pop();
@@ -20,16 +20,16 @@ How to use the script:
 	QuestsStore = Object.values(wpRequire.c).find(x => x?.exports?.A?.__proto__?.getQuest).exports.A;
 	ChannelStore = Object.values(wpRequire.c).find(x => x?.exports?.A?.__proto__?.getAllThreadsForParent).exports.A;
 	GuildChannelStore = Object.values(wpRequire.c).find(x => x?.exports?.Ay?.getSFWDefaultChannel).exports.Ay;
-	          FluxDispatcher = Object.values(wpRequire.c).find(x => x?.exports?.h?.__proto__?.flushWaitQueue).exports.h;
-	      api = Object.values(wpRequire.c).find(x => x?.exports?.Bo?.get).exports.Bo;
-       } else {
+	FluxDispatcher = Object.values(wpRequire.c).find(x => x?.exports?.h?.__proto__?.flushWaitQueue).exports.h;
+	api = Object.values(wpRequire.c).find(x => x?.exports?.Bo?.get).exports.Bo;
+    } else {
 	RunningGameStore = Object.values(wpRequire.c).find(x => x?.exports?.ZP?.getRunningGames).exports.ZP;
 	QuestsStore = Object.values(wpRequire.c).find(x => x?.exports?.Z?.__proto__?.getQuest).exports.Z;
 	ChannelStore = Object.values(wpRequire.c).find(x => x?.exports?.Z?.__proto__?.getAllThreadsForParent).exports.Z;
-    GuildChannelStore = Object.values(wpRequire.c).find(x => x?.exports?.ZP?.getSFWDefaultChannel).exports.ZP;
+	GuildChannelStore = Object.values(wpRequire.c).find(x => x?.exports?.ZP?.getSFWDefaultChannel).exports.ZP;
 	FluxDispatcher = Object.values(wpRequire.c).find(x => x?.exports?.Z?.__proto__?.flushWaitQueue).exports.Z;
 	api = Object.values(wpRequire.c).find(x => x?.exports?.tn?.get).exports.tn;	
-	}
+    }
 
     const supportedTasks = ["WATCH_VIDEO", "PLAY_ON_DESKTOP", "STREAM_ON_DESKTOP", "PLAY_ACTIVITY", "WATCH_VIDEO_ON_MOBILE"]
     let quests = [...QuestsStore.quests.values()].filter(x => x.userStatus?.enrolledAt && !x.userStatus?.completedAt && new Date(x.config.expiresAt).getTime() > Date.now() && supportedTasks.find(y => Object.keys((x.config.taskConfig ?? x.config.taskConfigV2).tasks).includes(y)))
@@ -188,7 +188,7 @@ How to use the script:
 	
 </details>
 
-If you're unable to paste it type allow pasting and it should work.
+If you're unable to paste it type `allow pasting` and it should work.
 
 After this you wait on the screen and do nothing the quest will end in 15 minutes.
 
